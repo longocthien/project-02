@@ -336,3 +336,69 @@ a {
 .courses-list .courses-cta-3 {
     font-size: 1.4rem;
 }
+
+/* ======= Feedback ======= */
+
+.feedback {
+    background: #2e2100;
+    padding: 96px 0;
+}
+
+.feedback .avatar {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .name {
+    margin-top: 18px;
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #f7f7f7;
+}
+
+.feedback .desc {
+    margin-top: 4px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.feedback .circle {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+
+.feedback .circle .sub-circle {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+}
+
+.feedback .circle .sub-circle:nth-child(2) {
+    background: #ffb900;
+}
+
+.feedback .quotes {
+    position: relative;
+    margin-left: auto;
+    width: 770px;
+}
+
+.feedback .quotes-img {
+    position: absolute;
+}
+
+.feedback .quotes-desc {
+    margin: 28px 0 0 30px;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
+
+
+/* ======= features ======= */
