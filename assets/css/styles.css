@@ -400,5 +400,67 @@ a {
     color: #ffffff;
 }
 
-
 /* ======= features ======= */
+
+.features {
+    padding: 200px 0;
+}
+
+.features .img-block {
+    position: relative;
+    width: 570px;
+    height: 438px;
+    display: flex;
+    gap: 30px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.features .img-block .features-img-1,
+.features .img-block .features-img-2 {
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+    position: absolute;
+}
+
+.features .img-block .features-img-1 {
+    bottom: 0;
+    left: 0;
+}
+
+.features .img-block .features-img-2 {
+    top: 0;
+    right: 0;
+}
+
+.features .info {
+    width: 470px;
+    margin: 58px 0;
+    margin-left: auto;
+}
+
+.features .title {
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features .desc,
+.features .desc-report {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.features-cta {
+    margin-top: 32px;
+    background: #ffb900;
+    border-radius: 26px;
+    min-width: 137px;
+}
