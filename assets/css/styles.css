@@ -235,3 +235,104 @@ a {
     line-height: 1.67;
     color: #171100;
 }
+
+/* ======= courses ====== */
+
+.courses {
+    padding: 200px 0;
+}
+
+.courses .title {
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 3.8rem;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.courses .courses-desc {
+    margin-top: 16px;
+    width: 458px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+
+.courses .row-courses {
+    position: relative;
+}
+
+.courses .arrow {
+    top: -4px;
+    position: absolute;
+    right: 0;
+}
+
+.courses-list {
+    display: flex;
+    margin-top: 55px;
+    gap: 30px;
+}
+.courses-list .item {
+    flex: 1;
+    background: #ffffff;
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+.courses-list .thumb {
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+    background: url(image.png);
+    border-radius: 12px 12px 0px 0px;
+}
+
+.courses-list .courses-info {
+    padding: 16px 22px 22px;
+}
+
+.courses-list .sub-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #171100;
+}
+
+.courses-list .star-block {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.courses-list .star-block .score {
+    font-size: 1.6rem;
+    color: #fea31b;
+}
+
+.courses-list .info-desc {
+    margin-top: 6px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.courses-list .row-money {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.courses-list .row-money span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #171100;
+}
+
+.courses-list .courses-cta-1 {
+    background: #ffb900;
+}
+.courses-list .courses-cta-1,
+.courses-list .courses-cta-2,
+.courses-list .courses-cta-3 {
+    font-size: 1.4rem;
+}
