@@ -167,14 +167,19 @@ a {
     margin-left: 28px;
     display: flex;
     align-items: center;
+    min-width: 202px;
 }
 
-.hero .info .play-btn img {
-    display: inline-block;
-    padding: 14px 15px;
+.hero .info .play-btn .icon-block-2 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #ffffff;
     border-radius: 50%;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+    left: 0;
 }
 
 .hero .info .play-btn span {
