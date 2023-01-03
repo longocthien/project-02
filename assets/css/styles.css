@@ -44,6 +44,13 @@ a {
     display: flex;
 }
 
+.sub-circle {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+}
+
 /* ======== Header ====== */
 .header {
     position: relative;
@@ -109,7 +116,7 @@ a {
 
 .hero {
     background: #fffcf4;
-    padding: 52px 0 64px;
+    padding: 52px 0 65px;
 }
 
 .hero .img-block {
@@ -205,20 +212,26 @@ a {
 .hero-course .course-group {
     padding: 24px 24px;
 }
+
 .course-group .info-course span {
     display: block;
     margin-left: 16px;
 }
+
 .course-group .row {
     align-items: center;
 }
+
 .course-group .row ~ .row {
     margin-top: 14px;
 }
 
-.course-group .row img {
-    display: inline-block;
-    padding: 12px 12px;
+.course-group .icon-block {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fff9e8;
     border-radius: 50%;
 }
@@ -371,13 +384,6 @@ a {
     margin-top: 28px;
     display: flex;
     gap: 6px;
-}
-
-.feedback .circle .sub-circle {
-    width: 6px;
-    height: 6px;
-    background: #634700;
-    border-radius: 50%;
 }
 
 .feedback .circle .sub-circle:nth-child(2) {
@@ -536,4 +542,85 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     color: #696262;
+}
+
+.blog-list {
+    padding-top: 55px;
+}
+
+.blog-list .row {
+    gap: 30px;
+}
+
+.blog-list .item {
+    flex: 1;
+    background: #ffffff;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.blog-list .item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.blog-info {
+    margin: 20px 20px 28px;
+}
+
+.blog-list .circle {
+    display: flex;
+    align-items: center;
+}
+
+.blog-list .circle .label {
+    margin-left: 4px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.blog-list .blog-info .circle .sub-circle {
+    background: #ffb900;
+}
+
+.blog-info .sub-title a {
+    margin-top: 12px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+}
+
+.horizontal {
+    margin-top: 12px;
+    width: 160px;
+    height: 1px;
+    background: #e2dfda;
+    border-radius: 0.5px;
+}
+
+.blog-btn {
+    margin-top: 12px;
+    min-width: 118px;
+    font-size: 1.4rem;
+    border-radius: 25px;
+}
+
+.blog-btn:hover {
+    background: #ffb900;
+}
+
+.blog-list > .circle {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.blog-list > .circle > .sub-circle:nth-child(2) {
+    background: #ffb900;
 }
