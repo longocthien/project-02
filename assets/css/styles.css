@@ -304,7 +304,7 @@ a {
     padding: 16px 22px 22px;
 }
 
-.courses-list .sub-title {
+.courses-list .sub-title a {
     font-weight: 600;
     font-size: 1.8rem;
     color: #171100;
