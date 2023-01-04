@@ -280,14 +280,37 @@ a {
     color: #5f5b53;
 }
 
-.courses .row-courses {
-    position: relative;
+.popular-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.courses .arrow {
-    top: -4px;
-    position: absolute;
-    right: 0;
+.courses .row-courses {
+    display: flex;
+    justify-content: space-between;
+}
+.courses-btn {
+    display: flex;
+    gap: 18px;
+}
+
+.courses-btn button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    color: var(--primary-color);
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.courses-btn button:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
 }
 
 .courses-list {
