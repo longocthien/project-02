@@ -416,23 +416,34 @@ a {
     padding: 96px 0;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback .feedback-item {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 100%;
+}
+
 .feedback .avatar {
     width: 72px;
     height: 72px;
-    object-fit: cover;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .feedback .title {
     margin-top: 18px;
     font-family: "Sen";
-    font-weight: 700;
     font-size: 2.4rem;
+    line-height: 1.42;
     color: #f7f7f7;
 }
 
 .feedback .desc {
-    margin-top: 4px;
     font-size: 1.4rem;
     line-height: 1.86;
     color: #bfbcb3;
@@ -444,26 +455,25 @@ a {
     gap: 6px;
 }
 
-.feedback .circle .sub-circle:nth-child(2) {
+.feedback .sub-circle {
+    cursor: pointer;
+}
+
+.feedback .sub-circle.active {
     background: var(--primary-color);
+    cursor: default;
 }
 
-.feedback .quotes {
-    position: relative;
-    margin-left: auto;
-    width: 770px;
+.feedback .content {
+    width: 66%;
 }
 
-.feedback .quotes-img {
-    position: absolute;
-}
-
-.feedback .quotes-desc {
+.feedback blockquote {
     font-style: italic;
-    margin: 28px 0 0 30px;
     font-size: 2.6rem;
     line-height: 1.54;
     color: #ffffff;
+    margin-left: 28px;
 }
 
 /* ======= features ======= */
