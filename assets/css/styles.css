@@ -10,6 +10,10 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+
+:root {
+    --primary-color: #ffb900;
+}
 /* Common */
 .main-content {
     width: 1170px;
@@ -49,6 +53,22 @@ a {
     height: 6px;
     background: #634700;
     border-radius: 50%;
+}
+
+.heading {
+    font-family: "Sen";
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.lv1 {
+    font-size: 5.8rem;
+    line-height: 1.17;
+}
+
+.lv2 {
+    font-size: 3.8rem;
+    line-height: 1.26;
 }
 
 /* ======== Header ====== */
@@ -136,14 +156,6 @@ a {
     border-radius: 20px;
 }
 
-.hero .title {
-    font-family: "Sen";
-    font-size: 5.8rem;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    color: #171100;
-}
-
 .hero .desc {
     margin-top: 22px;
     font-size: 1.8rem;
@@ -159,7 +171,7 @@ a {
 .hero .info .btn {
     min-width: 180px;
     line-height: 64px;
-    background: #ffb900;
+    background: var(--primary-color);
     border-radius: 32px;
 }
 
@@ -260,14 +272,6 @@ a {
     padding: 200px 0;
 }
 
-.courses .title {
-    font-family: "Sen";
-    font-weight: 700;
-    font-size: 3.8rem;
-    letter-spacing: -0.02em;
-    color: #171100;
-}
-
 .courses .courses-desc {
     margin-top: 16px;
     width: 458px;
@@ -347,7 +351,7 @@ a {
 }
 
 .courses-list .btn:hover {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 .courses-list .courses-cta-1,
@@ -392,7 +396,7 @@ a {
 }
 
 .feedback .circle .sub-circle:nth-child(2) {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 .feedback .quotes {
@@ -454,15 +458,6 @@ a {
     margin-left: auto;
 }
 
-.features .title {
-    font-family: "Sen";
-    font-weight: 700;
-    font-size: 3.8rem;
-    line-height: 1.26;
-    letter-spacing: -0.02em;
-    color: #171100;
-}
-
 .features .desc,
 .features .desc-report {
     margin-top: 16px;
@@ -473,7 +468,7 @@ a {
 
 .features-cta {
     margin-top: 32px;
-    background: #ffb900;
+    background: var(--primary-color);
     border-radius: 26px;
     min-width: 137px;
 }
@@ -490,15 +485,6 @@ a {
     width: 570px;
 }
 
-.features-2 .title {
-    font-family: "Sen";
-    font-weight: 700;
-    font-size: 3.8rem;
-    line-height: 1.26;
-    letter-spacing: -0.02em;
-    color: #171100;
-}
-
 .features-2 .desc {
     margin-top: 16px;
     font-size: 1.6rem;
@@ -509,7 +495,7 @@ a {
 .features-2 a {
     margin-top: 32px;
     min-width: 137px;
-    background: #ffb900;
+    background: var(--primary-color);
     border-radius: 26px;
 }
 
@@ -532,14 +518,6 @@ a {
     width: 448px;
     margin: auto;
     text-align: center;
-}
-
-.blog .title {
-    font-family: "Sen";
-    font-weight: 700;
-    font-size: 3.8rem;
-    letter-spacing: -0.02em;
-    color: #130606;
 }
 
 .blog .desc {
@@ -588,7 +566,7 @@ a {
 }
 
 .blog-list .blog-info .circle .sub-circle {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 .blog-info .sub-title a {
@@ -616,7 +594,7 @@ a {
 }
 
 .blog-btn:hover {
-    background: #ffb900;
+    background: var(--primary-color);
 }
 
 .blog-list > .circle {
@@ -627,5 +605,5 @@ a {
 }
 
 .blog-list > .circle > .sub-circle:nth-child(2) {
-    background: #ffb900;
+    background: var(--primary-color);
 }
