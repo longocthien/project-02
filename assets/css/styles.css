@@ -587,14 +587,17 @@ a {
 
 .blog-list {
     padding-top: 55px;
+    overflow: hidden;
 }
 
 .blog-list .row {
     gap: 30px;
+
 }
 
 .blog-list .item {
-    flex: 1;
+    flex: calc((100% - 60px) / 3);
+    flex-shrink: 0;
     background: #ffffff;
     border-radius: 16px;
 }
@@ -665,10 +668,12 @@ a {
     display: flex;
     justify-content: center;
     gap: 6px;
+    cursor: pointer;
 }
 
-.blog-list > .circle > .sub-circle:nth-child(2) {
+.blog-list > .circle .active {
     background: var(--primary-color);
+    cursor: default;
 }
 
 /* Footer */
