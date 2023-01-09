@@ -1,3 +1,18 @@
+::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,8 +24,8 @@ html {
 html,
 body {
     scroll-behavior: smooth;
+    overflow: overlay;
 }
-
 
 body {
     font-size: 1.6rem;
@@ -592,7 +607,6 @@ a {
 
 .blog-list .row {
     gap: 30px;
-
 }
 
 .blog-list .item {
